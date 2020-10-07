@@ -1,4 +1,4 @@
-# KnowhoBot
+# Phone Number Tracker bot
 
 Pluggable
 [Telegram](https://telegram.org) bot based on
