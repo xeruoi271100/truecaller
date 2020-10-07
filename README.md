@@ -23,9 +23,7 @@ Mozilla Public License for more details.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/rohithaditya/truecaller)
 
-#### Watch video
 
-<a href="https://youtu.be/n3OAebcVgR4"><img src="https://github.com/agentnova/KnowhoBot/blob/master/images%20(1)%7E2.jpg" width="150px"/></a>
 
 
 
