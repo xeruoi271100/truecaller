@@ -17,7 +17,7 @@ app = Client(
 @app.on_message(filters.command(["start"]))
 def start(client, message):
     client.send_message(chat_id=message.chat.id,
-                        text=f"`Hi` **{message.from_user.first_name}**\n `Enter the number to search...`",reply_markup=InlineKeyboardMarkup(
+                        text=f"`Hi` **{message.from_user.first_name}**\n `Enter the 10 digit Indian Mobile number to search...`",reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("About", callback_data="about"),
              InlineKeyboardButton("Source", callback_data="src")]]))
     check_status = check(message.chat.id)
@@ -26,7 +26,7 @@ def start(client, message):
 def newbt(client,callback_query):
     txt=callback_query.data
     if txt=="about":
-        callback_query.message.edit(text=f"`Bot`            : [knowhobot](t.me/phonecalltrackerbot)\n`Creator :` [Rohithaditya](t.me/rohithaditya)\n`Language:` [Python3](https://python.org)\n`Library :` [Pyrogram](https://docs.pyrogram.org/) \n`Server  :` [Heroku](https://herokuapp.com/)",
+        callback_query.message.edit(text=f"`Bot`            : [Identify Unknown Number](t.me/phonecalltrackerbot)\n`Creator :` [Rohithaditya](t.me/rohithaditya)\n`Language:` [Python3](https://python.org)\n`Library :` [Pyrogram](https://docs.pyrogram.org/) \n`Server  :` [Heroku](https://herokuapp.com/)",
                         disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("Give Feedback", url="t.me/rohithaditya")]]))
     elif txt=="src":
