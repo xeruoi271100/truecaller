@@ -1,6 +1,6 @@
 {
   "name": "Identify Unknown Phone Number Bot",
-  "description": "A telegram bot which gather information about an indian phone number(Gather results from both Truecaller and eyecon)",
+  "description": "A telegram bot which gather information about an indian phone number",
   "repository": "https://github.com/rohithaditya/truecaller",
   
   "keywords": ["Truecaller","telegram","telegram bot","bot","pyrogram","knowho bot","information gathering"],
